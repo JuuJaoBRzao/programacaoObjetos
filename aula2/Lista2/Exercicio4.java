@@ -9,7 +9,7 @@ public class lista2_exercicio4 {
 		
 		int soma = 0;
 		
-		for (int i = 0; i < 100; i++) {
+		for (int i = 0; i <= 100; i++) {
 			soma += i;
 			
 		}
