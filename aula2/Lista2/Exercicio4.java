@@ -11,8 +11,9 @@ public class lista2_exercicio4 {
 		
 		for (int i = 0; i < 100; i++) {
 			soma += i;
-			System.out.println("Soma dos numeros: "+soma);
+			
 		}
+		System.out.println("Soma dos numeros: "+soma);
 	}
 
 }
