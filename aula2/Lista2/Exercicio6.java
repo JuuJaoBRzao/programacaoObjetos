@@ -8,7 +8,7 @@ public class lista2_exercicio4 {
 		Scanner teclado = new Scanner(System.in);
 
 		double n, somatorio = 0, media = 0;
-		int i = 0
+		int i = 0;
 		
 		while (true) {
 			System.out.printIn("Digite um valor: ");
