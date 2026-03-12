@@ -15,9 +15,12 @@ public class Principal {
 		System.out.println("Digite a quantidade em estoque: ");
 		p1.quantidadeEstoque = teclado.nextInt();
 		
+		float valorTotal = p1.preco * p1.quantidadeEstoque;
+		
 		System.out.println("Nome: "+p1.nome);
 		System.out.println("Preço: "+p1.preco);
 		System.out.println("Quantia em  estoque: " +p1.quantidadeEstoque);
+		System.out.println("Valor total em estoque: "+valorTotal);
 		
 		teclado.close();
 	}
