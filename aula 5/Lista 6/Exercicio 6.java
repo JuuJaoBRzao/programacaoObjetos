@@ -18,9 +18,9 @@ public class Principal {
 		System.out.println("O premio ficou "+ resultado +" para "+ n + " pessoas");
 		
 		} catch (ArithmeticException e) {
-			System.out.println("Divisão por zero\n");
+			System.out.println("Divisão por zero\n" +e.getMessage());
 		} catch (InputMismatchException e) {
-			System.out.println("Numero incorreto digitado\n");
+			System.out.println("Numero incorreto digitado\n" +e.getMessage());
 		}
 		
 		teclado.close();
