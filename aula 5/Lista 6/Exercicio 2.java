@@ -21,9 +21,9 @@ public class Principal {
 			System.out.println("Divisão: "+(n1 / n2));
 			
 		} catch (ArithmeticException e) {
-			System.out.println("Erro: Numero dividido por zero");
+			System.out.println("Erro: Numero dividido por zero" +e.getMessage());
 		} catch (InputMismatchException e) {
-			System.out.println("Erro: Digite apenas numeros inteiros");
+			System.out.println("Erro: Digite apenas numeros inteiros" +e.getMessage());
 		}
 		
 		teclado.close();
