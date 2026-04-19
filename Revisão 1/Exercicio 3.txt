@@ -1,0 +1,3 @@
+Modificadores de acesso controlam a visibilidade de classes, atributos, métodos e construtores. Temos 2 principais modificadores:
+1 - public: permite que as váriaveis sejam acessadas ded outra classe
+2 - private: deixa o acesso restrito a própria classe, não podendo ser acesasdoa por outra.
