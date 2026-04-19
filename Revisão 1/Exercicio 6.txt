@@ -1,0 +1,1 @@
+Ao tentar acessar um atributo private fora da classe, o compilador recusa. O padrão em Java é criar métodos public para ler (getter) e modificar (setter) atributos privados, e isso é basicamente o encapsulamento.
