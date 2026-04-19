@@ -1,0 +1,9 @@
+Classe: É um conjunto de objetos que possuem características similares. É o arquivo usado para fazer o código.
+
+Objeto: É a instância de uma classe. Pode ter vários objetos de uma mesma classe
+
+Atributos: São as variáveis da classe.
+
+Método: São as funções da classe.
+
+Encapsulamento: O encapsulamento é feito em uma classe para para proteger os seus dados, fazendo com que só possa ser acessado por outra classe através de funções como get e set.
