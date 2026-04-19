@@ -1,0 +1,11 @@
+Int: armazena números inteiros. Ex: int idade = 25
+
+String: armazena linhas de texto. Ex: nome = "Guilherme"
+
+Boolean: armazena apenas true ou false. 
+Ex: boolean estaLogado = true;
+boolean temDesconto = false;
+
+if (estaLogado) {
+    System.out.println("Bem-vindo!"); // imprime isso
+}
