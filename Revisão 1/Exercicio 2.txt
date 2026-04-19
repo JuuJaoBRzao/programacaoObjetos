@@ -1,2 +1,8 @@
 O construtor é usado para iniciar um objeto de uma classe, ou seja, usado para colocar valor em suas váriaveis, enquanto os métodos são a mesma coisa que funções de programação, ou seja,
 são usados para manipular os valores que foram colocados nas váriaveis da classe e fazê-los aparecerem na classe Principal.
+Por exemplo, temos uma classe Carro, com as váriaveis marca e modelo (String). Para iniciar o valor de um objeto de uma classe fazemos uma função como: 
+public void valores (String marca, String modelo) {
+  this.marca = marca
+  this.modelo = modelo
+}
+E os métodos temos múltiplos que podemos fazer, como por exemplo, poderíamos fazer um método para alugar o carro e outro para verificar se o carro está atualmente em uso ou não.
