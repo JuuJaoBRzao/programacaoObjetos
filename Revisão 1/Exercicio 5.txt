@@ -1,0 +1,1 @@
+O comando toString() é chamado automaticamente sempre que um objeto precisa ser representado como texto. Ele serve para definir como um objeto será exibido como String, ou seja, sua representação textual legível.
