@@ -9,8 +9,8 @@ public class Main {
 		List<Aluno> listaAluno = new ArrayList<Aluno>();
 		
 		Aluno a1 = new Aluno("Guilherme", 9.9, 9.5);
-		Aluno a2 = new Aluno("Bruno", 9.8, 9);
-		Aluno a3 = new Aluno("Leonardo", 10, 10);
+		Aluno a2 = new Aluno("Bruno", 9.8, 9.9);
+		Aluno a3 = new Aluno("Leonardo", 1, 0);
 		
 		listaAluno.add(a1);
 		listaAluno.add(a2);
