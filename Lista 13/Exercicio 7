@@ -1,0 +1,9 @@
+ PODEM SER INTERFACE (so definem comportamento, sem estado):
+
+-> Conta (Ex. 1/2/3)
+    depositar() e sacar() sao contratos puros.
+    Cada subclasse gerencia seu proprio saldo/limite.
+
+-> Veiculo (Ex. 4)
+    acelerar() e frear() sao comportamentos puros.
+    Atributos marca/modelo/ano ficam em cada subclasse.
