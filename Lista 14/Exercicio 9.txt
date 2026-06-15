@@ -1,0 +1,10 @@
+Podem virar interface:
+  - Produto (ex. 10): apenas define contrato, sem estado.
+  - AcessoDados (ex. 12): operações puras de CRUD, sem atributos.
+
+NÃO devem virar interface:
+  - Conta: possui estado (saldo, limite).
+  - Animal: possui atributos nome e idade.
+  - Veiculo: possui atributos marca, modelo e ano.
+  - Pessoa: possui atributos nome e cidade.
+  - Funcionario: possui atributos nome e salario.
